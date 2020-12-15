@@ -1,5 +1,7 @@
 *{
     font-family: arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
 #case1{
@@ -12,7 +14,7 @@
 }
 
 a, a:hover, a:visited, a:active {
-    color: black;
+    color: gray;
     text-decoration: none;
 }
 
@@ -29,16 +31,17 @@ a, a:hover, a:visited, a:active {
 
 #co{
     height: 23px;
+    width: 70px;
     background-color: #4285F4;
     color: white;
     font-size: 13px;
+    border: solid 1px gray;
 }
 
 #case2{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
 
 #case3{
@@ -56,7 +59,7 @@ a, a:hover, a:visited, a:active {
 }
 
 #block{
-    border: solid 2px grey;
+    border: solid 1px lightgrey;
     border-radius: 30px;
     height: 40px;
     width: 590px;
@@ -64,9 +67,13 @@ a, a:hover, a:visited, a:active {
 }
 
 #logo2{
-    color: grey;
+    color: lightgrey;
     margin-top: 10px;
     margin-left: 5px;
+}
+
+#logo3{
+    color: #4285F4;
 }
 
 #case4{
@@ -80,5 +87,53 @@ a, a:hover, a:visited, a:active {
     border-radius: 5px;
     margin: 5px;
     margin-top: 25px;
-    outline: none;
+    border: none;
+    outline-color: #4285F4;
+    background-color: rgb(248, 248, 248);
+}
+
+#invisible{
+    height: 250px;
+    width: auto;
+}
+
+footer{
+    background-color: rgb(243, 243, 243);
+    font-size: 15px;
+}
+
+#case5{
+    display: flex;
+    justify-content: space-between;
+    height: 38px;
+}
+
+#caseDroite{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#caseGauche{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#caseGauche > div{
+    margin: 10px;
+}
+
+#caseDroite > div{
+    margin: 10px;
+}
+
+#France{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 1px  rgb(206, 206, 206);
+}
+
+#Fr{
+    padding-left: 10px;
 }
