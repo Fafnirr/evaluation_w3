@@ -1,0 +1,84 @@
+*{
+    font-family: arial, sans-serif;
+}
+
+#case1{
+    margin-right: 10px;
+    margin-top: 25px;
+    height: 44px;
+    font-family: arial, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a, a:hover, a:visited, a:active {
+    color: black;
+    text-decoration: none;
+}
+
+#Gmail, #images, #logo1{
+    margin-right: 13px;
+    font-size: 13px;
+    display: flex;
+}
+
+#logo1{
+    font-size: 17px;
+    color: grey;
+}
+
+#co{
+    height: 23px;
+    background-color: #4285F4;
+    color: white;
+    font-size: 13px;
+}
+
+#case2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#case3{
+    display: flex;
+    justify-content: center;
+}
+
+#Bar{
+    width: 540px;
+    height: 38px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 21px;
+}
+
+#block{
+    border: solid 2px grey;
+    border-radius: 30px;
+    height: 40px;
+    width: 590px;
+    margin-top: 28px;
+}
+
+#logo2{
+    color: grey;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#case4{
+    display: flex;
+    justify-content: center;
+}
+
+#button1, #button2{
+    height: 40px;
+    width: 148px;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 25px;
+    outline: none;
+}
